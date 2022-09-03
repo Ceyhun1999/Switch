@@ -289,6 +289,7 @@ input, textarea {
 footer { background: #000000cc; padding-top: 20px;}
 .footer { text-align: center; }
 .footer img { display: block; margin: 0 auto 20px auto; }
+.footer img:last-child { width: 100%;}
 footer { text-align: center;}
 footer p { 
     font: 1em Roboto;
@@ -399,6 +400,7 @@ footer p {
     /* styling elements of the footer  (FOOTER) */
     .footer { display: flex; justify-content: space-between; }
     #form-contact button:hover { background: #fff; color:#2b9b2b; }
+    .footer img:last-child { width: inherit;}
 }   
 
 
